@@ -1,3 +1,53 @@
 {
-  "students": []
+  "students": [
+    {
+      "id": 2,
+      "firstName": "sgdvh",
+      "lastName": "yejg",
+      "gender": "Male",
+      "age": 7
+    },
+    {
+      "id": 3,
+      "firstName": "dsgv",
+      "lastName": "",
+      "gender": "Male",
+      "age": 0
+    },
+    {
+      "id": 4,
+      "firstName": "",
+      "lastName": "",
+      "gender": "Female",
+      "age": 0
+    },
+    {
+      "id": 5,
+      "firstName": "",
+      "lastName": "wed",
+      "gender": "Male",
+      "age": 0
+    },
+    {
+      "id": 6,
+      "firstName": "fd",
+      "lastName": "ew",
+      "gender": "Male",
+      "age": 0
+    },
+    {
+      "id": 7,
+      "firstName": "wds",
+      "lastName": "esa",
+      "gender": "Male",
+      "age": 777
+    },
+    {
+      "id": 8,
+      "firstName": "awdswed",
+      "lastName": "dsasqsa5414",
+      "gender": "Male",
+      "age": 5
+    }
+  ]
 }
