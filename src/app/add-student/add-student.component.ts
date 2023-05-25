@@ -26,7 +26,7 @@ export class AddStudentComponent implements OnInit {
 
   create() {
     this.studentService.create(this.studentForm).subscribe(() => {
-      this.router.navigate(['/']);
+      this.router.navigate(['/all-students']);
     });
   }
 }

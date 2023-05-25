@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,10 +20,12 @@ import { EditStudentComponent } from './edit-student/edit-student.component';
 import {MatIconModule} from '@angular/material/icon';
 import { DeleteDialogStudentComponent } from './delete-dialog-student/delete-dialog-student.component';
 import {MatDialogModule} from '@angular/material/dialog';
+import { LoginComponent } from './login/login.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
-  declarations: [AppComponent, AllStudentsComponent, AddStudentComponent, EditStudentComponent, DeleteDialogStudentComponent],
+  declarations: [AppComponent, AllStudentsComponent, AddStudentComponent, EditStudentComponent, DeleteDialogStudentComponent, LoginComponent,],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -37,7 +40,9 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatButtonModule,
     FormsModule,
     MatIconModule,
-    MatDialogModule
+    MatDialogModule,
+    ReactiveFormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent],
